@@ -1,0 +1,39 @@
+### Gitignore Templates: https://github.com/github/gitignore
+
+# NodeJs
+#-----------------------
+node_modules/
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.yarn-integrity
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+
+# OSX
+#-----------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+
+
+# Windows
+#-----------------------
+[Dd]esktop.ini
+*.lnk
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
